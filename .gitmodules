@@ -1,0 +1,24 @@
+[submodule "balena-yocto-scripts"]
+	path = balena-yocto-scripts
+	url = https://github.com/balena-os/balena-yocto-scripts
+[submodule "layers/meta-balena"]
+	path = layers/meta-balena
+	url = https://github.com/balena-os/meta-balena
+[submodule "layers/meta-balena-odyssey-x86"]
+	path = layers/meta-balena-odyssey-x86
+	url = https://github.com/Seeed-Studio/meta-odyssey-x86
+	branch = balena
+[submodule "layers/meta-intel"]
+	path = layers/meta-intel
+	url = git://git.yoctoproject.org/meta-intel
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded
+	branch = dunfell
+[submodule "layers/meta-rust"]
+	path = layers/meta-rust
+	url = https://github.com/meta-rust/meta-rust
+[submodule "layers/poky"]
+	path = layers/poky
+	url = git://git.yoctoproject.org/poky
+	branch = dunfell

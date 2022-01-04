@@ -21,9 +21,10 @@ module.exports =
 	version: 1
 	slug: 'odyssey-x86'
 	aliases: [ 'odyssey-x86' ]
-	name: 'Odyssey'
+	name: 'Seeed Odyssey'
 	arch: 'amd64'
 	state: 'new'
+	community: true
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions

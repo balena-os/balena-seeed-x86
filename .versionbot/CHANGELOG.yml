@@ -1,1 +1,13 @@
-[]
+- commits:
+    - subject: Add initial support for ODYSSEY-X86
+      hash: eb1df3959f809224d6cf42510be7f3682e3ec89d
+      body: ''
+      footer:
+        Changelog-entry: Add initial support for ODYSSEY-X86
+        changelog-entry: Add initial support for ODYSSEY-X86
+        Signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+        signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+      author: lakshanthad
+      nested: []
+  version: 2.88.13
+  date: 2022-01-04T12:13:38.510Z

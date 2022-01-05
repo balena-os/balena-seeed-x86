@@ -1,4 +1,18 @@
 - commits:
+    - subject: Mark odyssey-x86 as community device type
+      hash: 71dad6df60a994ecc6dd8adf402383a4eeacfbd8
+      body: |
+        Also detail a bit the pretty device type name
+      footer:
+        Changelog-entry: Mark odyssey-x86 as community device type
+        changelog-entry: Mark odyssey-x86 as community device type
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.88.13+rev1
+  date: 2022-01-04T13:06:47.453Z
+- commits:
     - subject: Add initial support for ODYSSEY-X86
       hash: eb1df3959f809224d6cf42510be7f3682e3ec89d
       body: ''

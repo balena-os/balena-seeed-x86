@@ -1,6 +1,11 @@
 # v2.88.13
 ## (2022-01-04)
 
+# v2.88.15+rev1
+## (2022-01-13)
+
+* Change pretty device type name to 'Seeed ODYSSEY-X86' [Lakshantha Dissanayake]
+
 # v2.88.15
 ## (2022-01-05)
 

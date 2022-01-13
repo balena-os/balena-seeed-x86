@@ -1,4 +1,17 @@
 - commits:
+    - subject: Change pretty device type name to 'Seeed ODYSSEY-X86'
+      hash: ed197db39efbcad242b1a52d00e4e3292f06c121
+      body: ''
+      footer:
+        Changelog-entry: Change pretty device type name to 'Seeed ODYSSEY-X86'
+        changelog-entry: Change pretty device type name to 'Seeed ODYSSEY-X86'
+        Signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+        signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+      author: Lakshantha Dissanayake
+      nested: []
+  version: 2.88.15+rev1
+  date: 2022-01-13T10:20:47.474Z
+- commits:
     - subject: Update meta-balena from v2.88.13 to v2.88.15
       hash: 3b2184d1739636404d5a7a5f398e38f6416ec913
       body: |

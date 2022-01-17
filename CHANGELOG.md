@@ -1,6 +1,11 @@
 # v2.88.13
 ## (2022-01-04)
 
+# v2.88.15+rev2
+## (2022-01-13)
+
+* Change odyssey-x86 flasher image to live image [Lakshantha Dissanayake]
+
 # v2.88.15+rev1
 ## (2022-01-13)
 

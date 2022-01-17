@@ -1,4 +1,17 @@
 - commits:
+    - subject: Change odyssey-x86 flasher image to live image
+      hash: 9d18e8bc2384bb69402a5c95d6479028c5d3d8cb
+      body: ''
+      footer:
+        Changelog-entry: Change odyssey-x86 flasher image to live image
+        changelog-entry: Change odyssey-x86 flasher image to live image
+        Signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+        signed-off-by: Lakshantha Dissanayake <lakshanthad@seeed.cc>
+      author: Lakshantha Dissanayake
+      nested: []
+  version: 2.88.15+rev2
+  date: 2022-01-13T10:51:24.930Z
+- commits:
     - subject: Change pretty device type name to 'Seeed ODYSSEY-X86'
       hash: ed197db39efbcad242b1a52d00e4e3292f06c121
       body: ''

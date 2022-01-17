@@ -44,10 +44,10 @@ module.exports =
 
 	yocto:
 		machine: 'odyssey-x86'
-		image: 'balena-image-flasher'
+		image: 'balena-image'
 		fstype: 'balenaos-img'
 		version: 'yocto-dunfell'
-		deployArtifact: 'balena-image-flasher-odyssey-x86.balenaos-img'
+		deployArtifact: 'balena-image-odyssey-x86.balenaos-img'
 		compressed: true
 
 	configuration:

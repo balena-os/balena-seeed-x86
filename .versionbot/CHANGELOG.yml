@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add renovate configuration
+      hash: 4ca059041087cf4931a81ef85b01cf1f067a9d91
+      body: ""
+      footer:
+        Changelog-entry: Add renovate configuration
+        changelog-entry: Add renovate configuration
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.88.15+rev4
+  title: "'Add renovate configuration'"
+  date: 2022-05-11T05:35:06.492Z
+- commits:
     - subject: Fix variable in local.conf.sample for correct switch to development image
       hash: 645df10fad40806cda2d52fa7383493f24140aa0
       body: |

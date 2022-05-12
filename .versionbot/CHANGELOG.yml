@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to b66f92f791bee0527107453183f60fa9d659dbf9
+      hash: 86eef9f2dfa729a3906fd1dd4744ee753a058699
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b66f92f791bee0527107453183f60fa9d659dbf9
+        changelog-entry: Update layers/meta-balena to b66f92f791bee0527107453183f60fa9d659dbf9
+      author: Renovate Bot
+      nested: []
+  version: 2.98.22
+  title: "'Update layers/meta-balena digest to b66f92f'"
+  date: 2022-05-12T07:25:22.193Z
+- commits:
     - subject: Update balena-yocto-scripts to fe688d2bfbb121401830ec804fa423619048a224
       hash: a548e2644c7a36a7f7c3548effd6d4a7522a8f7d
       body: Update balena-yocto-scripts

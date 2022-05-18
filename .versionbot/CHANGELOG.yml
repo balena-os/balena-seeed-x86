@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+      hash: 25e28f3c5e98da1524ffbdf068c9b5baabe5a176
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+        changelog-entry: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+      author: Renovate Bot
+      nested: []
+  version: 2.98.27
+  title: "'Update layers/meta-balena digest to 7ca0039'"
+  date: 2022-05-18T16:41:35.662Z
+- commits:
     - subject: Update layers/meta-balena to b6e9352e8784e433c647811d532d7ab3e2ee05e2
       hash: 2e680faa3e29e0769008364349e7e8a661658087
       body: Update layers/meta-balena

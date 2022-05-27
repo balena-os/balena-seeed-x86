@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to cc2bc321c33d9c2af1f4566793e16b075e425a7c
+      hash: f8641a98a3b8a95d77b7073ee47c6c2f60f4ae9f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cc2bc321c33d9c2af1f4566793e16b075e425a7c
+        changelog-entry: Update layers/meta-balena to cc2bc321c33d9c2af1f4566793e16b075e425a7c
+      author: Renovate Bot
+      nested: []
+  version: 2.98.32
+  title: "'Update layers/meta-balena digest to cc2bc32'"
+  date: 2022-05-27T18:07:59.696Z
+- commits:
     - subject: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
       hash: 0705e4dbc09a9585dceeb33f577ef56555653885
       body: Update balena-yocto-scripts

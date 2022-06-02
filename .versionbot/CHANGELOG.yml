@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+      hash: 1eed1d07f04302ecdb7531032caf2c9d857329d9
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+        changelog-entry: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+      author: Renovate Bot
+      nested: []
+  version: 2.98.35
+  title: "'Update layers/meta-balena digest to ff147b2'"
+  date: 2022-06-02T21:56:23.719Z
+- commits:
     - subject: Update balena-yocto-scripts to 8cce34e9763389eb59e4e375c532c81eb592fc1e
       hash: 4b853c773e65e942f1557a587441474a26a6a843
       body: Update balena-yocto-scripts

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
+      hash: d6179148ac76f7e693d548dcc94e93b530adcd99
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
+        changelog-entry: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
+      author: Renovate Bot
+      nested: []
+  version: 2.99.1
+  title: "'Update layers/meta-balena digest to 1aee182'"
+  date: 2022-06-13T11:02:05.400Z
+- commits:
     - subject: Add build and deploy workflow
       hash: 86cf549aad0500294121d544ab93885d36fa0c0c
       body: >

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to d44b153e75f61c8a18d5149f37412f1fc1e577d9
+      hash: 16b3ecda8c5271843aaeefaebf8618412ee0f023
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d44b153e75f61c8a18d5149f37412f1fc1e577d9
+        changelog-entry: Update layers/meta-balena to d44b153e75f61c8a18d5149f37412f1fc1e577d9
+      author: renovate[bot]
+      nested: []
+  version: 2.99.23
+  title: "'Update layers/meta-balena digest to d44b153'"
+  date: 2022-06-28T03:35:47.228Z
+- commits:
     - subject: Update layers/meta-balena to 34e139b190f7aef385f9d7a831fe90e5efee007d
       hash: 297648241596394bad1cdb0b575cabaa7ba7c41a
       body: Update layers/meta-balena

@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
+      hash: d3c423ec568e1c45c7628d64dc8f33481e7011a7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
+        changelog-entry: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
+      author: renovate[bot]
+      nested: []
+    - subject: Update balena-yocto-scripts to 29b218350eb1553f0f2c4da2753e9f6722226f41
+      hash: d051e54745b843e17f9a9d72c1d4ebaf533338ef
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 29b218350eb1553f0f2c4da2753e9f6722226f41
+        changelog-entry: Update balena-yocto-scripts to 29b218350eb1553f0f2c4da2753e9f6722226f41
+      author: renovate[bot]
+      nested: []
+  version: 2.99.25
+  title: "'Update layers/meta-balena digest to b76de1e'"
+  date: 2022-06-29T03:02:08.908Z
+- commits:
     - subject: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
       hash: 1335d9f3428bae490c5e658fe3c2f7b6f9bbe9c9
       body: Update layers/meta-balena

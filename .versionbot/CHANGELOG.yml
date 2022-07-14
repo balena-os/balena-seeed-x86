@@ -1,4 +1,18 @@
 - commits:
+    - subject: Change the poky submodule to our github mirror
+      hash: fbef938394ae75d098302d871aa30f9ebd5d2d96
+      body: ""
+      footer:
+        Changelog-entry: Change the poky submodule to our github mirror
+        changelog-entry: Change the poky submodule to our github mirror
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.99.26+rev2
+  title: "'Change poky submodule to use our github hosted mirror'"
+  date: 2022-07-14T09:52:40.577Z
+- commits:
     - subject: Update build and deploy workflow to support ESR tags
       hash: 96bcb080fd7444274743047ea1ab2e6ca6046e6e
       body: |

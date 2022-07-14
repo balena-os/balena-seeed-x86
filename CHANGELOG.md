@@ -1,6 +1,11 @@
 # v2.88.13
 ## (2022-01-04)
 
+# v2.99.26+rev2
+## (2022-07-14)
+
+* Change the poky submodule to our github mirror [Florin Sarbu]
+
 # v2.99.26+rev1
 ## (2022-07-12)
 

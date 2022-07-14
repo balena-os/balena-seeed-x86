@@ -16,5 +16,5 @@
 	url = https://github.com/meta-rust/meta-rust
 [submodule "layers/poky"]
 	path = layers/poky
-	url = git://git.yoctoproject.org/poky
+	url = https://github.com/balena-os/poky
 	branch = dunfell

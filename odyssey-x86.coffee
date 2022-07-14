@@ -3,7 +3,7 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 
 DISABLE_SECURE_BOOT = 'Make sure Secure Boot is disabled in BIOS.'
 GENERIC_FLASH = '''
-	Please make sure you do not have any other USB keys inserted.
+	Please make sure you do not have any other USB keys inserted sdf w
 	Power up the hardware. Make sure you have a keyboard connected.
 	Press the F7 key (may differ on some platforms) while BIOS is loading in order to enter the boot menu.
 	Next, select the name of your USB key.

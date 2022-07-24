@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      hash: f2a792be8dbfdcc3f91e0cb8ab2416a74c290a09
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+        changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      author: renovate[bot]
+      nested: []
+  version: 2.100.10
+  title: "'Update layers/meta-balena digest to dd080e1'"
+  date: 2022-07-24T17:03:45.016Z
+- commits:
     - subject: Change the poky submodule to our github mirror
       hash: fbef938394ae75d098302d871aa30f9ebd5d2d96
       body: ""

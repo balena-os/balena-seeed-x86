@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
+      hash: 95164fd83e0edf4f6f69a54c348faf4c321d8634
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
+        changelog-entry: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
+      author: renovate[bot]
+      nested: []
+  version: 2.99.26+rev3
+  date: 2022-07-25T18:05:26.909Z
+- commits:
     - subject: Change the poky submodule to our github mirror
       hash: fbef938394ae75d098302d871aa30f9ebd5d2d96
       body: ""

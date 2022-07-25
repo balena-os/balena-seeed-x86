@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
+      hash: db5261406a4f2dfe5f64a964c94ce975f6a82af4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
+        changelog-entry: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
+      author: renovate[bot]
+      nested: []
+  version: 2.100.11
+  date: 2022-07-25T21:37:02.689Z
+- commits:
     - subject: Change the poky submodule to our github mirror
       hash: fbef938394ae75d098302d871aa30f9ebd5d2d96
       body: ""

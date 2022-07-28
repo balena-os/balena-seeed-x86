@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update build and deploy workflow to v0.0.9
+      hash: d435335792d378538718d734a7c3bba30ae03faa
+      body: |
+        This update will deploy as final when automation tests have been passed
+        for the previous merge commit.
+      footer:
+        Changelog-entry: Update build and deploy workflow to v0.0.9
+        changelog-entry: Update build and deploy workflow to v0.0.9
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.99.26+rev3
+  date: 2022-07-28T16:45:52.710Z
+- commits:
     - subject: Change the poky submodule to our github mirror
       hash: fbef938394ae75d098302d871aa30f9ebd5d2d96
       body: ""

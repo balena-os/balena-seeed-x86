@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to ab80d0fbfbd28e10b7aa14739203a680d37815bd
+      hash: e0adba50e44f4f65f11e7921c771cbce3931ba61
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ab80d0fbfbd28e10b7aa14739203a680d37815bd
+        changelog-entry: Update layers/meta-balena to ab80d0fbfbd28e10b7aa14739203a680d37815bd
+      author: renovate[bot]
+      nested: []
+  version: 2.101.8
+  title: "'Update layers/meta-balena digest to ab80d0f'"
+  date: 2022-08-23T05:56:07.411Z
+- commits:
     - subject: Modify layer ordering
       hash: 936021d834f832fcd8dbf220b9266e149bae2fa4
       body: |

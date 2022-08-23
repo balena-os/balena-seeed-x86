@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to f2de8e3d438671ac740bfa2119ab881afc5d2101
+      hash: ebcada1793e4733795d394cdcc8c2c3d03e6a414
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f2de8e3d438671ac740bfa2119ab881afc5d2101
+        changelog-entry: Update layers/meta-balena to f2de8e3d438671ac740bfa2119ab881afc5d2101
+      author: renovate[bot]
+      nested: []
+  version: 2.101.9
+  title: "'Update layers/meta-balena digest to f2de8e3'"
+  date: 2022-08-23T07:19:20.910Z
+- commits:
     - subject: Update layers/meta-balena to ab80d0fbfbd28e10b7aa14739203a680d37815bd
       hash: e0adba50e44f4f65f11e7921c771cbce3931ba61
       body: Update layers/meta-balena

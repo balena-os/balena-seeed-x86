@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 226aa0d60a8e7d69ae2b17c5bc3efff1559a6bda
+      hash: 28071d6596080caf65aff4e3fe744cb3b708048c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 226aa0d60a8e7d69ae2b17c5bc3efff1559a6bda
+        changelog-entry: Update layers/meta-balena to 226aa0d60a8e7d69ae2b17c5bc3efff1559a6bda
+      author: renovate[bot]
+      nested: []
+  version: 2.104.1
+  title: "'Update layers/meta-balena digest to 226aa0d'"
+  date: 2022-09-20T14:58:26.784Z
+- commits:
     - subject: Update layers/meta-balena to 09435bc8b96abc8fcd245eaa5e1ead0fe626cae5
       hash: 5d23a26a66b76bf52e6eac5f8c07311c6ac5dc3d
       body: Update layers/meta-balena

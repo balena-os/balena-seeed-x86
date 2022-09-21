@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to ce91b3f1807f5dc1d1ee861a164957215757d8a0
+      hash: a682f8d17bb06ff1b78f34a7632efa6ec94369ab
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ce91b3f1807f5dc1d1ee861a164957215757d8a0
+        changelog-entry: Update layers/meta-balena to ce91b3f1807f5dc1d1ee861a164957215757d8a0
+      author: renovate[bot]
+      nested: []
+  version: 2.105.1
+  title: "'Update layers/meta-balena digest to ce91b3f'"
+  date: 2022-09-21T17:30:54.420Z
+- commits:
     - subject: Update layers/meta-balena to d767299d6d830f3c310a691ca8b5fc543a4215e5
       hash: 8b01db5a0ff134b136fc39f5441a0d711bfadce1
       body: Update layers/meta-balena

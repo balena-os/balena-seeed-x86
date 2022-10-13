@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+      hash: 287eafad34c8f60b381c06aa39433175615fa311
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+        changelog-entry: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+      author: renovate[bot]
+      nested: []
+  version: 2.105.11
+  title: "'Update layers/meta-balena digest to 433b722'"
+  date: 2022-10-13T21:15:36.904Z
+- commits:
     - subject: Update layers/meta-balena to d17b08668a56aa67c7b55594c3c910e66fbd4baf
       hash: a5ffb69b6493bd9d70b14df478eb767d66445470
       body: Update layers/meta-balena

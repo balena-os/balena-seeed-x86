@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 6fe97ecc67ba4dc83fb5ff21d801e9062d4179d4
+      hash: bf15b17492eea4b37cc9e652201ab94c3972d097
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6fe97ecc67ba4dc83fb5ff21d801e9062d4179d4
+        changelog-entry: Update layers/meta-balena to 6fe97ecc67ba4dc83fb5ff21d801e9062d4179d4
+      author: renovate[bot]
+      nested: []
+  version: 2.105.20
+  title: ""
+  date: 2022-10-26T20:24:36.017Z
+- commits:
     - subject: add header to CHANGELOG file
       hash: f27adbe410ae70329c18a7860cd60f8e54ddd9c4
       body: |

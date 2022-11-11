@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e
+      hash: 199c46c6f3f13eb3c49305a95dd06d449878203d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e
+        changelog-entry: Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e
+      author: renovate[bot]
+      nested: []
+  version: 2.106.2
+  title: ""
+  date: 2022-11-11T00:35:02.727Z
+- commits:
     - subject: Update layers/meta-balena to bf237c4f76c4026ed3aea2f30edc7c6a484fcef6
       hash: f39e6e42ecd284716ddccd8d7ff7400a031ede61
       body: Update layers/meta-balena

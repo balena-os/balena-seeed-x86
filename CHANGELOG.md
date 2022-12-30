@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.108.10+rev1
+## (2022-12-30)
+
+* Default to flasher images for the odyssey-x86. [Alex Gonzalez]
+
 # v2.108.10
 ## (2022-12-30)
 

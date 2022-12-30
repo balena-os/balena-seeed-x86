@@ -1,4 +1,30 @@
 - commits:
+    - subject: Default to flasher images for the odyssey-x86.
+      hash: 31920e114ec49adb966612cac750cdc070049942
+      body: >
+        The odyssey-x86 contains an eMMC so let's default to the flasher image
+
+        that boots an installer system and programs the raw image into internal
+
+        storage. This matches the installation instrucitons defined in the
+
+        device contract which appear in the dashboard when a new device is added.
+
+
+        Also, specify both flasher and raw images as surfacing both in the dashboard
+
+        is an item in the roadmap.
+      footer:
+        Changelog-entry: Default to flasher images for the odyssey-x86.
+        changelog-entry: Default to flasher images for the odyssey-x86.
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.108.10+rev1
+  title: ""
+  date: 2022-12-30T17:17:17.541Z
+- commits:
     - subject: Update layers/meta-balena to ef1c2dd3af72fcf8d9ac8b8df74caae0d59f4db3
       hash: d9608636f48770423caaf133e5a6091371529027
       body: Update layers/meta-balena

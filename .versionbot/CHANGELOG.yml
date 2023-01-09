@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b
+      hash: 371f7a577420f98e724a2d99a3da54635c24c031
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b
+        changelog-entry: Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b
+      author: renovate[bot]
+      nested: []
+  version: 2.108.16
+  title: ""
+  date: 2023-01-09T14:44:17.419Z
+- commits:
     - subject: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
       hash: 459194b4d0aa4492dfc7a4f8e091e1adb19cc146
       body: Update balena-yocto-scripts

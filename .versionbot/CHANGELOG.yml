@@ -1,4 +1,20 @@
 - commits:
+    - subject: add meta-perl to bblayers.conf
+      hash: d454ea180d12050c48b0e869e7525747f201d546
+      body: |
+        Perl is required for building efitools used for
+        EFI boot entry configuration and secure boot,
+      footer:
+        Changelog-entry: add meta-perl to bblayers.conf
+        changelog-entry: add meta-perl to bblayers.conf
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.108.19+rev2
+  title: ""
+  date: 2023-01-26T13:49:49.707Z
+- commits:
     - subject: Add ESR workflow
       hash: d578f4a10acbd29155e9d6e14d625f44068b6225
       body: |

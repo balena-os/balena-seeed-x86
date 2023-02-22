@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to f6327ce662208faa11b250b47518a5f01679dd25
+      hash: 1e5bdb84013af3c071fcd52b8f002e24a69c3a01
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f6327ce662208faa11b250b47518a5f01679dd25
+        changelog-entry: Update layers/meta-balena to f6327ce662208faa11b250b47518a5f01679dd25
+      author: Renovate Bot
+      nested: []
+  version: 2.112.13
+  title: ""
+  date: 2023-02-22T12:31:43.010Z
+- commits:
     - subject: Update CI workflow to allow external contributions
       hash: 7bb1dff8a49a202ce21fc1a0c171c222b2922ad9
       body: ""

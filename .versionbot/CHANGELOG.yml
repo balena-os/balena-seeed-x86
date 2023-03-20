@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 03d8e7b847f89b803093f1511316c856aa320346
+      hash: 8c45da8b5e37e4c4d02464fafc5df4893ebf7478
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 03d8e7b847f89b803093f1511316c856aa320346
+        changelog-entry: Update layers/meta-balena to 03d8e7b847f89b803093f1511316c856aa320346
+      author: Renovate Bot
+      nested: []
+  version: 2.113.20
+  title: ""
+  date: 2023-03-20T19:56:30.237Z
+- commits:
     - subject: Prevent duplicate CI workflow executions
       hash: 8bca608903191629e15aeabba30888b432dbc695
       body: ""

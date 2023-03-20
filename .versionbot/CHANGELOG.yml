@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 7fc00f6017dbc346bff72c54b33e6f77f7924413
+      hash: 087238643e1d9c5b38a2a8caf8434b81a461cd3d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7fc00f6017dbc346bff72c54b33e6f77f7924413
+        changelog-entry: Update layers/meta-balena to 7fc00f6017dbc346bff72c54b33e6f77f7924413
+      author: Renovate Bot
+      nested: []
+  version: 2.113.21
+  title: ""
+  date: 2023-03-20T22:29:52.428Z
+- commits:
     - subject: Default to flasher images for the odyssey-x86.
       hash: 0806005bbb3b6e94646f3f12c0282221017df464
       body: >

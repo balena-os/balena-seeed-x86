@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.114.8
+## (2023-04-22)
+
+* Update layers/meta-balena to f7fe9a9bb773aa19cee244ab6f1b275ff182d40d [Renovate Bot]
+
 # v2.114.7+rev1
 ## (2023-04-21)
 

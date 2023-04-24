@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 6f38c16dea7e006ee20b90a089574505fbce4a25
+      hash: 98310a60e8307f7f8ef82984b4009f3db8491733
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6f38c16dea7e006ee20b90a089574505fbce4a25
+        changelog-entry: Update layers/meta-balena to 6f38c16dea7e006ee20b90a089574505fbce4a25
+      author: Renovate Bot
+      nested: []
+  version: 2.114.10
+  title: ""
+  date: 2023-04-24T16:34:22.578Z
+- commits:
     - subject: Update layers/meta-balena to e2663a747325b2cb71476fde889244ad424ec8a4
       hash: d7e656b8f94d734d0ee6c7c9ffeaabe0e7ab9b64
       body: Update layers/meta-balena
@@ -35,7 +47,8 @@
             - subject: "barys: fix removal of equals sign from argval"
               hash: 8855ad4d31b45187e4007763b6bb084e08974807
               body: >
-                When parsing additional variables to be passed to the bitbake build,
+                When parsing additional variables to be passed to the bitbake
+                build,
 
                 keys and values are split using equals as a delimiter. However, the
 
@@ -123,7 +136,8 @@
             - subject: "balena-lib: Do not return error if no balena user token is available"
               hash: e335e248305cda86ce55f934b2b3ba8202f17454
               body: >
-                The balena API token is only required for private device access so don't
+                The balena API token is only required for private device access
+                so don't
 
                 fail if there is not one available.
               footer:
@@ -410,7 +424,8 @@
             - subject: "balena-api: ignore quotes from API replies"
               hash: ad7065112eee4e6e3865ef5581e4c53676536459
               body: >
-                The balenaAPI has replied both `OK` and `"OK"` to patch requests. Accept
+                The balenaAPI has replied both `OK` and `"OK"` to patch
+                requests. Accept
 
                 any of them as long as they contain OK.
               footer:
@@ -726,7 +741,8 @@
             - subject: "balena-generate-ami: match instance type with image type"
               hash: 98c1601e106a1fe194fd6c1339b33b67a57a578a
               body: >
-                When using an amd64 AMI, use a suitable A1 Graviton instance to test it.
+                When using an amd64 AMI, use a suitable A1 Graviton instance to
+                test it.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -775,7 +791,8 @@
             - subject: "balene-generate-ami: remove key name"
               hash: cebc5f30447785bdbad8260f0975bd1f9f261a9b
               body: >
-                No need to provide a key name as the instance only needs to be accessible
+                No need to provide a key name as the instance only needs to be
+                accessible
 
                 via balenaCloud.
               footer:
@@ -793,7 +810,8 @@
                 balena_os"
               hash: 0e3f9ca33265d1fc84244a4e3e86b9e7a7c85715
               body: >
-                These applications have been moved to the `balena_os` organization.
+                These applications have been moved to the `balena_os`
+                organization.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -808,7 +826,8 @@
             - subject: "balena-generate-ami: do not remove AMI snapshot"
               hash: 7022aa4933c5134d22b1f9f7e60c9e76fecca36a
               body: >
-                This snapshot is attached to the AMI and can only be removed after
+                This snapshot is attached to the AMI and can only be removed
+                after
 
                 de-registering the AMI.
               footer:
@@ -822,7 +841,8 @@
                 token"
               hash: 526fe49137cd619162d4e1307b977d1aa85401b0
               body: >
-                No need to complicate the job configuration with two tokens if we can do
+                No need to complicate the job configuration with two tokens if
+                we can do
 
                 with one.
               footer:
@@ -835,7 +855,8 @@
             - subject: "jenkins_build: respect the preserve build flag"
               hash: 30ff6dc19dafe9f7860df65c5552e4a25061a37b
               body: >
-                Do not remove the build directory if the preserve build flag is set.
+                Do not remove the build directory if the preserve build flag is
+                set.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -1144,7 +1165,8 @@
             - subject: "jenkins_build: add argument to build OS development images"
               hash: 07f20dae6f06831181fc2ae306f9c4a52499ca24
               body: >
-                Building OS development images is useful for example when debugging and
+                Building OS development images is useful for example when
+                debugging and
 
                 testing AMI images.
               footer:
@@ -1173,7 +1195,8 @@
             - subject: "dockerfile: balena-push-env: update balena CLI version to v14.5.15"
               hash: 06f4be81c2dd37eb6a6da51024d6857b32200d20
               body: >
-                Newer supervisor require a CLI >= v13.5.1 to migrate from v2 apps.json
+                Newer supervisor require a CLI >= v13.5.1 to migrate from v2
+                apps.json
               footer:
                 Change-type: patch
                 change-type: patch
@@ -1184,7 +1207,8 @@
             - subject: "jenkins_generate_ami: add balena org for preloaded app"
               hash: ee48444b36d3597264a7694b2246b3fee4f6b659
               body: >
-                Specify the organization and block name when preloading so it is not
+                Specify the organization and block name when preloading so it is
+                not
 
                 ambiguous.
               footer:
@@ -1702,7 +1726,8 @@
             - subject: "jenkins_generate_ami: use a different token"
               hash: 3fcb9cb302b3f50e5fd8943fdafe2934fb0de182
               body: >
-                The AMI preload application no longer lives in the balena_os organization
+                The AMI preload application no longer lives in the balena_os
+                organization
 
                 so allow to provide a different token.
               footer:
@@ -2362,7 +2387,8 @@
             - subject: "barys: Add balena-rust to syntax conversion step"
               hash: 2fb2b25a2bc6c226f3d4d570a2bfb261585ed283
               body: >
-                Recent versions of meta-balena include a balena-rust layer used to
+                Recent versions of meta-balena include a balena-rust layer used
+                to
 
                 specify a distro-set Rust version across all supported Yocto versions
 
@@ -2382,7 +2408,8 @@
             - subject: "balena-api: On hostapp creation, set class to app"
               hash: 3bb4995b8bedcfe83b75c3ef6151725828dd1eb8
               body: >
-                Applications can be fleet, blocks or apps, and hostapps need to be set
+                Applications can be fleet, blocks or apps, and hostapps need to
+                be set
 
                 as apps.
               footer:
@@ -2464,7 +2491,8 @@
             - subject: "balena-deploy: Use balena-img instead of resin-img"
               hash: 93a91f27b8538d60b45d0f25eb1fddf512e31e52
               body: >
-                The resin-img is no longer maintained and the deployment of raw images
+                The resin-img is no longer maintained and the deployment of raw
+                images
 
                 as well as flasher requires features only available in balena-img.
               footer:
@@ -2633,7 +2661,8 @@
     - subject: Add build and deploy workflow
       hash: 86cf549aad0500294121d544ab93885d36fa0c0c
       body: >
-        This workflow will launch a Jenkins build and draft deploy job when a new
+        This workflow will launch a Jenkins build and draft deploy job when a
+        new
 
         tag is made.
       footer:
@@ -2723,7 +2752,8 @@
             - subject: "balena-lib: release_finalize: Do not retag phase for ESR branch patch"
               hash: ffdcb572e75b6bddc890710a6c1e4702d08a86a7
               body: >
-                When we patch an ESR branch, for example from v2022.1.0 to v2022.1.1,
+                When we patch an ESR branch, for example from v2022.1.0 to
+                v2022.1.1,
 
                 do not update the next, current, sunset ESR  phases as they remain the
 
@@ -2754,7 +2784,8 @@
             - subject: "balena-lib: balena_lib_release_finalize: Pass the correct arguments"
               hash: e28b745d4ba121b639ba79dad2377f051fe5d3e2
               body: >
-                The balena_api_fetch_fleet_tag requires a slug as first argument, not
+                The balena_api_fetch_fleet_tag requires a slug as first
+                argument, not
 
                 a fleet that can contain the organization too.
               footer:
@@ -2767,7 +2798,8 @@
             - subject: "balena-lib: Tag ESR fleets with patch independent tags"
               hash: d51ecb6d91fe6ecf91de1ecde4fff700f7f88e67
               body: >
-                Otherwise patch updates of ESR branches move the ESR phase when they
+                Otherwise patch updates of ESR branches move the ESR phase when
+                they
 
                 should not. For example, if 2022.1.1 is current, 2022.1.2 is also
 
@@ -2794,7 +2826,8 @@
             - subject: "balena-lib: balena_lib_release_finalize: Pass the correct arguments"
               hash: e28b745d4ba121b639ba79dad2377f051fe5d3e2
               body: >
-                The balena_api_fetch_fleet_tag requires a slug as first argument, not
+                The balena_api_fetch_fleet_tag requires a slug as first
+                argument, not
 
                 a fleet that can contain the organization too.
               footer:
@@ -2807,7 +2840,8 @@
             - subject: "balena-lib: Tag ESR fleets with patch independent tags"
               hash: d51ecb6d91fe6ecf91de1ecde4fff700f7f88e67
               body: >
-                Otherwise patch updates of ESR branches move the ESR phase when they
+                Otherwise patch updates of ESR branches move the ESR phase when
+                they
 
                 should not. For example, if 2022.1.1 is current, 2022.1.2 is also
 
@@ -2862,7 +2896,8 @@
             - subject: "balena-lib: Check versions before finalizing"
               hash: 0ae1389a69b857b466b4eef81396d5f1b6bc4ae6
               body: >
-                Only allow to finalize draft releases that have matching semver with
+                Only allow to finalize draft releases that have matching semver
+                with
 
                 the device repository being deployed.
               footer:
@@ -2875,7 +2910,8 @@
             - subject: "balena-deploy-block: Do not always finalise on deploy"
               hash: 754833d6ef773b68a9eecafb426783ac70eb8767
               body: >
-                Introduce a new final step after draft deployment to finalise releases.
+                Introduce a new final step after draft deployment to finalise
+                releases.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -2886,7 +2922,8 @@
             - subject: "balena-deploy-block: Add OS version to contract"
               hash: 2c692984079215c2c916c5e4df79e200486be1ff
               body: >
-                If there is an OS contract, add the OS version we are building for.
+                If there is an OS contract, add the OS version we are building
+                for.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -2907,7 +2944,8 @@
             - subject: "balena-lib: Build contracts"
               hash: b8c08faf2a86434793bcad67e063ade9754142ff
               body: >
-                Add a function to build all OS contracts and return the one for the
+                Add a function to build all OS contracts and return the one for
+                the
 
                 specified slug.
               footer:
@@ -2970,7 +3008,8 @@
             - subject: "balena-lib: Finalise release before tagging"
               hash: 2243ff38f3589c021c0013477b92e6888f57eba8
               body: >
-                This is so we can check that we are tagging the correct version before
+                This is so we can check that we are tagging the correct version
+                before
 
                 doing it, as tagging makes the release visible.
               footer:
@@ -2993,7 +3032,8 @@
             - subject: "balena-lib: Extract release finalization as function"
               hash: 969f6b941bd9fb34d82fbc0d48838b7b4898b2e1
               body: >
-                This allows it to be called from other context, like the OS automation
+                This allows it to be called from other context, like the OS
+                automation
 
                 test suite.
               footer:
@@ -3016,7 +3056,8 @@
             - subject: "balena-deploy: Fix header on balena_deploy_block()"
               hash: dbbf059bf9b8df60b7578c7a41e0678fbff60043
               body: >
-                The arguments to this function have been re-ordered but the header had
+                The arguments to this function have been re-ordered but the
+                header had
 
                 not been modified.
               footer:
@@ -3157,7 +3198,8 @@
             - subject: "deploy: ensure deployRawArtifact is empty instead of null"
               hash: 56edfe62d6ecede3e07b0b51653ca605a2e4ba83
               body: >
-                jq returns null by default when a given key isn't found, ensure that
+                jq returns null by default when a given key isn't found, ensure
+                that
 
                 when getting the value of deployRawArtifact, we get an empty variable
 
@@ -3253,7 +3295,8 @@
             - subject: "automation: ami: make BALENA_PRELOAD_COMMIT optional"
               hash: b365cb9ba359637a3a6a8451b8d83142bb167571
               body: >
-                Remove BALENA_PRELOAD_COMMIT from required env vars, as we have a
+                Remove BALENA_PRELOAD_COMMIT from required env vars, as we have
+                a
 
                 default if it's not specified.
               footer:
@@ -3284,7 +3327,8 @@
             - subject: "jenkins_generate_ami: surface preload app commit as variable"
               hash: 7248b344198ba09a219ee227ffea4b6f0a4850d7
               body: >
-                Surface the preloaded app commit as a variable that can be overridden in
+                Surface the preloaded app commit as a variable that can be
+                overridden in
 
                 the build job. Default to "current" to maintain existing behavior when
 
@@ -3318,7 +3362,8 @@
             - subject: "balena-deploy: Avoid patching test suites config.js during deploy"
               hash: 21c27cd41cda7ee7f5041752cca1f79280c51a7e
               body: >
-                This will allow us to make changes to config.js in meta-balena without
+                This will allow us to make changes to config.js in meta-balena
+                without
 
                 breaking the deploy steps. If additional changes are needed at runtime
 
@@ -3356,7 +3401,8 @@
             - subject: "jenkins_build: Use recurse-submodules when checking out meta-balena"
               hash: 00fb29b9a7a00dc1209be497ef171736e6229954
               body: >
-                If meta-balena has submodule updates we want to make sure to use them.
+                If meta-balena has submodule updates we want to make sure to use
+                them.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -3403,7 +3449,8 @@
             - subject: "balena-lib: Fix fetching meta-balena base version"
               hash: d5d838339ed23ecd242092bf4214fe2505ccd181
               body: >
-                On an ESR branch the VERSION file contains the ESR version, not the
+                On an ESR branch the VERSION file contains the ESR version, not
+                the
 
                 base meta-balena version.
 
@@ -3432,7 +3479,8 @@
             - subject: "balena-deploy-block: Label ESR hostapps"
               hash: 1c6561daf9f16e579d55305471274e7793dc3619
               body: >
-                ESR hostapps need special labels in order to be recognized. This commit
+                ESR hostapps need special labels in order to be recognized. This
+                commit
 
                 adds the esr-current, esr-next and esr-sunset labels.
               footer:
@@ -3456,7 +3504,8 @@
             - subject: "balena-api: Set policy on ESR hostapps"
               hash: 6e4d7b3d2ccbd1a5c67d94cc73c4552775ce3b94
               body: >
-                ESR hostapps need an esr release-policy in order to be recognized.
+                ESR hostapps need an esr release-policy in order to be
+                recognized.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -3467,7 +3516,8 @@
             - subject: "balena-deploy: Pass ESR variable when creating apps"
               hash: 2497bfb59ae16810169718e6d383d0bc9d564a04
               body: >
-                ESR hostapps need special labels in order to be recognized. This allows
+                ESR hostapps need special labels in order to be recognized. This
+                allows
 
                 to add those flags when creating the hostapp.
               footer:
@@ -3484,7 +3534,8 @@
                 tag"
               hash: 9d5fa316dbda3d4782e782abaceed41efe3e5a99
               body: >
-                The last meta-balena version and tag might not be the same, like in the
+                The last meta-balena version and tag might not be the same, like
+                in the
 
                 case of ESR branches.
 
@@ -3500,7 +3551,8 @@
             - subject: "balena-lib: Add balena_lib_get_meta_balena_base_version"
               hash: 25840dc98e138781e78530be0437f3950970f263
               body: >
-                Retrieves the last meta-balena version, which may not be the same as the
+                Retrieves the last meta-balena version, which may not be the
+                same as the
 
                 last meta-balena tag.
 
@@ -3562,7 +3614,8 @@
             - subject: "prepare-and-start: Propagate balena API environment and token"
               hash: bb7b903e00fc153afea182a330da08a49b72cced
               body: >
-                The balena-build.sh script accepts a token in the command line. This
+                The balena-build.sh script accepts a token in the command line.
+                This
 
                 commit modifies the prepare-and-start.sh script to use it if
 
@@ -3668,8 +3721,8 @@
             - subject: "initrdscripts: fsuuidinit: Generate resin-rootA last"
               hash: 00d6ca48d32b2b1a111d400457b73be5cc36d6bf
               body: >
-                As resin-rootA is used to decide whether to re-run the generation, leave
-                it
+                As resin-rootA is used to decide whether to re-run the
+                generation, leave it
 
                 last. As it stands, if resin-rootA is regenerated by any other fail, the
 
@@ -3684,7 +3737,8 @@
             - subject: "lvm2: Add rule to persist dm devices in udev database"
               hash: de2ff622473f2f0bc03c05dbd15f1df8c88f734e
               body: >
-                On transitioning from the initramfs to the rootfs, the udev database is
+                On transitioning from the initramfs to the rootfs, the udev
+                database is
 
                 cleanedup as the rules between initramfs and rootfs might defer.
 
@@ -3720,7 +3774,8 @@
             - subject: "initrdscripts: Use /run as bootparam_root storage"
               hash: 449dee77f54d4185f98854bca9148a6f42620bc8
               body: >
-                From v2.49, the hostapp-update utility creates the /run directory in the
+                From v2.49, the hostapp-update utility creates the /run
+                directory in the
 
                 root filesystem, however when huping from previous versions /run is not
 
@@ -3769,7 +3824,8 @@
             - subject: "balena-keys: Fetch DER keys and decode from base64"
               hash: 2538a1c621979f83385729be57b53faa640326d1
               body: >
-                Some BIOS configuration, like TianoCore used in QEMU, needs DER keys for
+                Some BIOS configuration, like TianoCore used in QEMU, needs DER
+                keys for
 
                 secure boot setup. Also, der, auth and esl keys are served base64 encoded
 

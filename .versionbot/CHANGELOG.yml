@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 43bf9f98db7de74bce36141f5e55c4dcffb7e060
+      hash: 817c016bbf225b16a55ba879454b4abdf108d300
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 43bf9f98db7de74bce36141f5e55c4dcffb7e060
+        changelog-entry: Update layers/meta-balena to 43bf9f98db7de74bce36141f5e55c4dcffb7e060
+      author: Renovate Bot
+      nested: []
+  version: 2.114.16
+  title: ""
+  date: 2023-05-03T03:06:57.382Z
+- commits:
     - subject: Update layers/meta-balena to 6dea3e6c37f789704d95485ed1ddab2b63226111
       hash: ba3e0a98fb12461f2e049a022cadfd2d8dcd775a
       body: Update layers/meta-balena

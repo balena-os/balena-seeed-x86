@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.115.3+rev1
+## (2023-05-30)
+
+
+<details>
+<summary> Update balena-yocto-scripts to f2a164e0acaaa66795d5f31af248f1743dd0ffb7 [Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.30
+> ### (2023-05-23)
+> 
+> * generate_ami: opt-in secure boot when using signed images [Alex Gonzalez]
+> * balena-generate-ami: comply with default AMI quotas [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.115.3
 ## (2023-05-29)
 

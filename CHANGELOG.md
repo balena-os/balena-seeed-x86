@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.115.5
+## (2023-06-08)
+
+* Update layers/meta-balena to 7c31e98312e50f7cc6380b00701c6ed8ff3da216 [Self-hosted Renovate Bot]
+* Remove pull_request_target event run for ESR targets [Alex Gonzalez]
+
 # v2.115.4
 ## (2023-06-01)
 

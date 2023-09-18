@@ -1,9 +1,11 @@
 [submodule "balena-yocto-scripts"]
 	path = balena-yocto-scripts
 	url = https://github.com/balena-os/balena-yocto-scripts
+	branch = master
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena
+	branch = master
 [submodule "layers/meta-intel"]
 	path = layers/meta-intel
 	url = git://git.yoctoproject.org/meta-intel

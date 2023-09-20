@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 966f4447225b4d7def470789ca6239067c22591d
+      hash: dd70c5d9e9c615b5f296c24e9a917da950d23d21
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 966f4447225b4d7def470789ca6239067c22591d
+        changelog-entry: Update layers/meta-balena to 966f4447225b4d7def470789ca6239067c22591d
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 4.0.10
+  title: ""
+  date: 2023-09-20T16:46:36.231Z
+- commits:
     - subject: Update balena-os/github-workflows to v0.0.22
       hash: 4a3a0302d60dab264b01678372ea375c7429b42a
       body: Update balena-os/github-workflows

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 1c9c4813033186cefde51b9639edf7035f070c9d
+      hash: 554d4eddeab4a9fcb8005244c4d3418ce99e301c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1c9c4813033186cefde51b9639edf7035f070c9d
+        changelog-entry: Update layers/meta-balena to 1c9c4813033186cefde51b9639edf7035f070c9d
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 4.0.16
+  title: ""
+  date: 2023-10-02T14:32:25.104Z
+- commits:
     - subject: Update layers/poky to f980ef9fec58217b4b743c0ee103d5957894676a
       hash: da1790ef1817ad1c911a8bb91b9ff21c2ef7b231
       body: Update layers/poky

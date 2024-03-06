@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
+      hash: ca7415bd3c6c730e2ab3b187e92ae341cacf4803
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
+        changelog-entry: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.1.48
+  title: ""
+  date: 2024-03-06T09:25:35.742Z
+- commits:
     - subject: pass input parameters to common esr workflow
       hash: cca6be6550d3770a327da1495f1c3cec352db2f0
       body: ""

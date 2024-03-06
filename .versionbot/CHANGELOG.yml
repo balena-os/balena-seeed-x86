@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 069243961adb123830eb4073a6245b2fa1e6f8b3
+      hash: 5586c12e5f9fcea52fb50cf47674ed1a46d85b50
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 069243961adb123830eb4073a6245b2fa1e6f8b3
+        changelog-entry: Update layers/meta-balena to 069243961adb123830eb4073a6245b2fa1e6f8b3
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.1.49
+  title: ""
+  date: 2024-03-06T21:27:26.689Z
+- commits:
     - subject: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
       hash: ca7415bd3c6c730e2ab3b187e92ae341cacf4803
       body: Update layers/meta-balena
@@ -2603,7 +2615,8 @@
 
                 deprecation. This allows to just remove the coffee file from the
 
-                device repository when a device is deprecated so there will be no
+                device repository when a device is deprecated so there will be
+                no
 
                 more releases and no need for checks on a discontinued state.
               footer:
@@ -2620,7 +2633,8 @@
 
                 deprecation. This allows to just remove the coffee file from the
 
-                device repository when a device is deprecated so there will be no
+                device repository when a device is deprecated so there will be
+                no
 
                 more releases and no need for checks on a discontinued state.
               footer:
@@ -2637,7 +2651,8 @@
 
                 deprecation. This allows to just remove the coffee file from the
 
-                device repository when a device is deprecated so there will be no
+                device repository when a device is deprecated so there will be
+                no
 
                 more releases and no need for checks on a discontinued state.
               footer:
@@ -2991,7 +3006,8 @@
 
         Removing the pull_request_target run for ESR branches fixes this, but
 
-        also removes the possibility of external pull requests into ESR branches,
+        also removes the possibility of external pull requests into ESR
+        branches,
 
         which we don't actually need.
 
@@ -3057,12 +3073,14 @@
                 Comply with AWS public AMI quota, taking into account we have
                 two
 
-                architectures that publish AMI images and we need free slots for custom
+                architectures that publish AMI images and we need free slots for
+                custom
 
                 version request.
 
 
-                Make the oldest public image back to private before publishing a new image.
+                Make the oldest public image back to private before publishing a
+                new image.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -3104,7 +3122,8 @@
                 When building signed images, add the secureBoot feature flag
                 into the
 
-                OS contract. This is needed for other components to identify secureBoot
+                OS contract. This is needed for other components to identify
+                secureBoot
 
                 compatible software releases.
               footer:
@@ -3390,13 +3409,16 @@
                 When parsing additional variables to be passed to the bitbake
                 build,
 
-                keys and values are split using equals as a delimiter. However, the
+                keys and values are split using equals as a delimiter. However,
+                the
 
-                splitting process does not split only on the first occurrence, which
+                splitting process does not split only on the first occurrence,
+                which
 
                 results in removing equals signs from the value as well. This is
 
-                problematic with base64 encoded strings, which are padded with equals
+                problematic with base64 encoded strings, which are padded with
+                equals
 
                 signs.
 
@@ -3683,10 +3705,12 @@
 
         storage. This matches the installation instrucitons defined in the
 
-        device contract which appear in the dashboard when a new device is added.
+        device contract which appear in the dashboard when a new device is
+        added.
 
 
-        Also, specify both flasher and raw images as surfacing both in the dashboard
+        Also, specify both flasher and raw images as surfacing both in the
+        dashboard
 
         is an item in the roadmap.
       footer:
@@ -3790,7 +3814,8 @@
         characters with a `*`.
 
 
-        [1] https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
+        [1]
+        https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
 
 
         [skip ci]
@@ -5730,7 +5755,8 @@
                 Recent versions of meta-balena include a balena-rust layer used
                 to
 
-                specify a distro-set Rust version across all supported Yocto versions
+                specify a distro-set Rust version across all supported Yocto
+                versions
 
 
                 As such, the syntax of this layer also needs to be converted.
@@ -5834,7 +5860,8 @@
                 The resin-img is no longer maintained and the deployment of raw
                 images
 
-                as well as flasher requires features only available in balena-img.
+                as well as flasher requires features only available in
+                balena-img.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -6095,7 +6122,8 @@
                 When we patch an ESR branch, for example from v2022.1.0 to
                 v2022.1.1,
 
-                do not update the next, current, sunset ESR  phases as they remain the
+                do not update the next, current, sunset ESR  phases as they
+                remain the
 
                 same.
               footer:
@@ -6141,7 +6169,8 @@
                 Otherwise patch updates of ESR branches move the ESR phase when
                 they
 
-                should not. For example, if 2022.1.1 is current, 2022.1.2 is also
+                should not. For example, if 2022.1.1 is current, 2022.1.2 is
+                also
 
                 current and should not move 2022.1.1 to sunset.
               footer:
@@ -6183,7 +6212,8 @@
                 Otherwise patch updates of ESR branches move the ESR phase when
                 they
 
-                should not. For example, if 2022.1.1 is current, 2022.1.2 is also
+                should not. For example, if 2022.1.1 is current, 2022.1.2 is
+                also
 
                 current and should not move 2022.1.1 to sunset.
               footer:
@@ -6541,9 +6571,11 @@
                 jq returns null by default when a given key isn't found, ensure
                 that
 
-                when getting the value of deployRawArtifact, we get an empty variable
+                when getting the value of deployRawArtifact, we get an empty
+                variable
 
-                instead, which is checked later on to determine if that file should be
+                instead, which is checked later on to determine if that file
+                should be
 
                 deployed
               footer:
@@ -6602,15 +6634,18 @@
                 * the CLI prompts for input during preload
 
 
-                Alternatively, the --pin-device-to-release flag may be used to pin only the
+                Alternatively, the --pin-device-to-release flag may be used to
+                pin only the
 
                 preloaded device to the selected release.
 
 
-                Would you like to disable automatic updates for this fleet now? No
+                Would you like to disable automatic updates for this fleet now?
+                No
 
 
-                * we do not want to set the suggested flag and we do not want to touch the fleet release policy for this use case
+                * we do not want to set the suggested flag and we do not want to
+                touch the fleet release policy for this use case
               footer:
                 Change-type: patch
                 change-type: patch
@@ -6670,7 +6705,8 @@
                 Surface the preloaded app commit as a variable that can be
                 overridden in
 
-                the build job. Default to "current" to maintain existing behavior when
+                the build job. Default to "current" to maintain existing
+                behavior when
 
                 the variable isn't set.
               footer:
@@ -6705,7 +6741,8 @@
                 This will allow us to make changes to config.js in meta-balena
                 without
 
-                breaking the deploy steps. If additional changes are needed at runtime
+                breaking the deploy steps. If additional changes are needed at
+                runtime
 
                 the substitutions can be made by the leviathan Jenkins job.
               footer:
@@ -6724,7 +6761,8 @@
               body: >
                 If the submodule was recently added to meta-balena, the checkout
 
-                command will not initialize it without a separate submodule update
+                command will not initialize it without a separate submodule
+                update
 
                 command.
               footer:
@@ -6795,7 +6833,8 @@
                 base meta-balena version.
 
 
-                Replace it with searching down the git tree for the commit before the
+                Replace it with searching down the git tree for the commit
+                before the
 
                 branch.
               footer:
@@ -6897,9 +6936,11 @@
                 last meta-balena tag.
 
 
-                For example, when we branch an ESR release, the meta-balena branch is
+                For example, when we branch an ESR release, the meta-balena
+                branch is
 
-                tagged with the ESR name, like 2.83.x, while the last meta-balena version
+                tagged with the ESR name, like 2.83.x, while the last
+                meta-balena version
 
                 will be a proper semver.
               footer:
@@ -6932,7 +6973,8 @@
               body: >
                 This is required to allow building against cloud instances with
 
-                different names for the balenaOS organization and private device types.
+                different names for the balenaOS organization and private device
+                types.
               footer:
                 Change-type: patch
                 change-type: patch
@@ -7064,7 +7106,8 @@
                 As resin-rootA is used to decide whether to re-run the
                 generation, leave it
 
-                last. As it stands, if resin-rootA is regenerated by any other fail, the
+                last. As it stands, if resin-rootA is regenerated by any other
+                fail, the
 
                 UUID generation is not retried.
               footer:
@@ -7083,7 +7126,8 @@
                 cleanedup as the rules between initramfs and rootfs might defer.
 
 
-                However, dm devices are flagged not to be re-processed, so we need to
+                However, dm devices are flagged not to be re-processed, so we
+                need to
 
                 set a sticky bit on them so they persist the cleanup.
               footer:
@@ -7101,7 +7145,8 @@
                 different than the one in the initramfs.
 
 
-                Devices that need to persist, like dm devices, need to be flagged with
+                Devices that need to persist, like dm devices, need to be
+                flagged with
 
                 the `db_persist` option.
               footer:
@@ -7117,30 +7162,37 @@
                 From v2.49, the hostapp-update utility creates the /run
                 directory in the
 
-                root filesystem, however when huping from previous versions /run is not
+                root filesystem, however when huping from previous versions /run
+                is not
 
                 there.
 
 
-                Commit bab3cd7f50022127bfef50fde9cd445b6b55a7b2 switches to use /tmp
+                Commit bab3cd7f50022127bfef50fde9cd445b6b55a7b2 switches to use
+                /tmp
 
                 to store the new UUID for the root partition on first boot after
 
                 generating new UUIDs as this is backwards compatible.
 
 
-                However, this means that the udev database in the initramfs is recreated
+                However, this means that the udev database in the initramfs is
+                recreated
 
-                on the final system instead of reused. This becomes a problems for DM
+                on the final system instead of reused. This becomes a problems
+                for DM
 
-                devices (used in luks based disk encryption), as they are not re-processed
+                devices (used in luks based disk encryption), as they are not
+                re-processed
 
                 by udevd.
 
 
-                This change will use /run if available, so new releases that may implement
+                This change will use /run if available, so new releases that may
+                implement
 
-                disk encryption work, or /tmp if not so it still remains backwards
+                disk encryption work, or /tmp if not so it still remains
+                backwards
 
                 compatible for HUP from older releases.
               footer:
@@ -7167,7 +7219,8 @@
                 Some BIOS configuration, like TianoCore used in QEMU, needs DER
                 keys for
 
-                secure boot setup. Also, der, auth and esl keys are served base64 encoded
+                secure boot setup. Also, der, auth and esl keys are served
+                base64 encoded
 
                 and need to be decoded before they can be used.
               footer:

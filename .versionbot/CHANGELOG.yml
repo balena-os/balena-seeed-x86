@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 7e2a78213b4fb5915c1f8ecc042ffb1b38d9a013
+      hash: c57f0ac1edfdca425df0357a154c9870b57b7c43
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7e2a78213b4fb5915c1f8ecc042ffb1b38d9a013
+        changelog-entry: Update layers/meta-balena to 7e2a78213b4fb5915c1f8ecc042ffb1b38d9a013
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.2.0
+  title: ""
+  date: 2024-03-16T14:03:20.302Z
+- commits:
     - subject: Update balena-yocto-scripts to 775e16968edc4c3803834bc524687ae4316ab6e4
       hash: f8e7b9e2bc55ead2ecc0eb17db3fccd0dade7bf1
       body: Update balena-yocto-scripts

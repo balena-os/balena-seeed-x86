@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v5.2.8
+## (2024-04-17)
+
+* Update layers/meta-balena to 5d7a7ecfdc69c481e6e762e38e66b8b291a70e32 [Self-hosted Renovate Bot]
+
 # v5.2.7
 ## (2024-04-17)
 

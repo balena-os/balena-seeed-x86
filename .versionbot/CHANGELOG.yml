@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 760b2d6a41eee84c2db144fa6b5f4d40b0c9326a
+      hash: 2968df14cb7a361067d3e0de31873ff7ba1d3e43
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 760b2d6a41eee84c2db144fa6b5f4d40b0c9326a
+        changelog-entry: Update layers/meta-balena to 760b2d6a41eee84c2db144fa6b5f4d40b0c9326a
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.3.5
+  title: ""
+  date: 2024-05-16T14:01:14.395Z
+- commits:
     - subject: Update layers/meta-balena to b09a185be7b866374d1c4d0ed37e9407289293a6
       hash: c9abbd5d672dc3665c49c6299594e73bc5d61d08
       body: Update layers/meta-balena

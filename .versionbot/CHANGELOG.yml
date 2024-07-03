@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to f7894d49a4f5e56fbf570e2ce81bb7c0f8743e61
+      hash: df0c2e389e3d9e15d2128854f9411d407b5309ed
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to f7894d49a4f5e56fbf570e2ce81bb7c0f8743e61
+        changelog-entry: Update balena-yocto-scripts to f7894d49a4f5e56fbf570e2ce81bb7c0f8743e61
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Fix actionlint errors and warnings in shell steps
+              hash: da910ed9ac6fdd70bd0ebd1beb0dbbd1248517fd
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.25.1
+          title: ""
+          date: 2024-07-03T18:33:05.802Z
+  version: 5.3.23+rev3
+  title: ""
+  date: 2024-07-03T21:08:59.413Z
+- commits:
     - subject: Update balena-yocto-scripts to 5469d877de428856cd630f2a18bc39edefdb924d
       hash: b9ae99d20e560376a1c9f8609a622a3c85370026
       body: Update balena-yocto-scripts

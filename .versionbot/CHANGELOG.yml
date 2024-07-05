@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7e492de8e573786e21bb2dc14c7d2af89f6b1d54
+      hash: 7d1f411b1812c0c752388863909121309925f84c
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7e492de8e573786e21bb2dc14c7d2af89f6b1d54
+        changelog-entry: Update balena-yocto-scripts to 7e492de8e573786e21bb2dc14c7d2af89f6b1d54
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: use workflow run of PR head instead of statuses to determine test
+                results
+              hash: ad06820f4174568383678710fa68b2054da6db57
+              body: >
+                Since we have moved to workflows for tests instead of status
+                checks, we have to fetch the workflow runs for the appropriate
+                commit to determine a test pass/fail.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.3
+          title: ""
+          date: 2024-07-05T12:42:09.570Z
+  version: 5.3.24+rev2
+  title: ""
+  date: 2024-07-05T17:16:06.821Z
+- commits:
     - subject: Update balena-yocto-scripts to 32b15f1729158dec8046b9861da37062c68ff292
       hash: 705acf6f6db902741fb34a1dd336ee88d5266e42
       body: Update balena-yocto-scripts

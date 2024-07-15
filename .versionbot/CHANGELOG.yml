@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7c73eefe9aac870b5fd9050e5d429dd56b0ab4ff
+      hash: 429743cb1362e99754bdad3b0b377cb9f0aadddd
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7c73eefe9aac870b5fd9050e5d429dd56b0ab4ff
+        changelog-entry: Update balena-yocto-scripts to 7c73eefe9aac870b5fd9050e5d429dd56b0ab4ff
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Use App Installation tokens so we can clone private submodules
+              hash: 9ca32e51938efc3c5cd01b96eecce85665fb9698
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.25.6
+          title: ""
+          date: 2024-07-15T15:11:37.708Z
+  version: 5.4.0+rev1
+  title: ""
+  date: 2024-07-15T17:55:52.747Z
+- commits:
     - subject: Update layers/meta-balena to 5b9716f19794b0e0da9c474e4e0ffadbde337c30
       hash: 01a7f3adad0c43818977d1c722a86643ad066372
       body: Update layers/meta-balena

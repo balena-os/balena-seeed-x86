@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.4.0+rev2
+## (2024-07-16)
+
+
+<details>
+<summary> Update balena-yocto-scripts to ba3794d7321f5a126dd19a840fe7109b5e0ee40d [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.7
+> ### (2024-07-16)
+> 
+> * Fix handling of empty test matrix input [Kyle Harding]
+> 
+
+</details>
+
 # v5.4.0+rev1
 ## (2024-07-15)
 

@@ -16,6 +16,7 @@
 [submodule "layers/meta-rust"]
 	path = layers/meta-rust
 	url = https://github.com/meta-rust/meta-rust
+	branch = dunfell
 [submodule "layers/poky"]
 	path = layers/poky
 	url = https://github.com/balena-os/poky

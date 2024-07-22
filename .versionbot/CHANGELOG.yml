@@ -1,4 +1,57 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7b65acc0280a2239d7f8fcfd7260151d97b6f3d5
+      hash: a6a3ea181492c5f664204e8f2686b6251a27f81d
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7b65acc0280a2239d7f8fcfd7260151d97b6f3d5
+        changelog-entry: Update balena-yocto-scripts to 7b65acc0280a2239d7f8fcfd7260151d97b6f3d5
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: use token to fetch private contracts
+              hash: acfc8d20ce8dd4b29eae67679dd1a89ffcc75c7c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: unroll balena_lib_build_contract function
+              hash: 82c9e482f3bfb0fcd960c455f2c8ff0c42c98baa
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: unroll balena_api_is_dt_private function
+              hash: cc3102dbb1348ee563b08dfd3afd37daaa0404ca
+              body: >
+                when building + deploying or a private DT , the check to see if
+                the DT is private fails. This is due to
+                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424
+                using this function:
+                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191
+                - which uses the jenkins deployTo variable to select the correct
+                api url and token.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.9
+          title: ""
+          date: 2024-07-22T16:18:49.689Z
+  version: 6.0.5+rev3
+  title: ""
+  date: 2024-07-22T20:21:57.175Z
+- commits:
     - subject: Update layers/meta-rust to d42984ff9a9fad9ced37d95a89af1b2b84f957e9
       hash: e024a828387c072db0349cfb3816af0d89245ffe
       body: Update layers/meta-rust

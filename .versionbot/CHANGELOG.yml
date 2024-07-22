@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-rust to d42984ff9a9fad9ced37d95a89af1b2b84f957e9
+      hash: e024a828387c072db0349cfb3816af0d89245ffe
+      body: Update layers/meta-rust
+      footer:
+        Changelog-entry: Update layers/meta-rust to d42984ff9a9fad9ced37d95a89af1b2b84f957e9
+        changelog-entry: Update layers/meta-rust to d42984ff9a9fad9ced37d95a89af1b2b84f957e9
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 6.0.5+rev2
+  title: ""
+  date: 2024-07-22T16:41:21.423Z
+- commits:
     - subject: Update .gitmodules with submodule branch information
       hash: 040fa6edb25d8eed6dd52542f5689c2f2f29ca55
       body: ""

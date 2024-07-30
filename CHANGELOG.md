@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.6+rev4
+## (2024-07-30)
+
+
+<details>
+<summary> Update balena-yocto-scripts to ef6b7efa3a4f697e835412e6012a2f8bbeb94d37 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.14
+> ### (2024-07-29)
+> 
+> * Update balena-os/leviathan digest to 36aafe0 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.6+rev3
 ## (2024-07-29)
 

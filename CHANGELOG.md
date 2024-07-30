@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v6.0.6+rev5
+## (2024-07-30)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 7736d3807540afb6646b435117bffa2377ac0156 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.16
+> ### (Invalid date)
+> 
+> * Update docker/login-action action to v3.3.0 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.15
+> ### (Invalid date)
+> 
+> * Update actions/upload-artifact action to v4.3.4 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.6+rev4
 ## (2024-07-30)
 

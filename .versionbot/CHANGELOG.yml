@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 18a3783b983fcb706390a59c3287a071bcacf485
+      hash: 42ee027f98ddffad743bf19c185af98a8b63cfe0
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 18a3783b983fcb706390a59c3287a071bcacf485
+        changelog-entry: Update balena-yocto-scripts to 18a3783b983fcb706390a59c3287a071bcacf485
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-os/leviathan action to v2.31.43
+              hash: 1d06142fd45940bb41e902b3c03ba6fa5e1c7665
+              body: |
+                Update balena-os/leviathan from 2.31.40 to 2.31.43
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.43
+          title: ""
+          date: 2024-09-18T13:23:47.644Z
+        - commits:
+            - subject: only upload artifacts when test_matrix is defined
+              hash: 51751d241c7e845351e3a26c74e615157ad38f52
+              body: >
+                This prevents uploads of artifacts that will never be used - as
+                they are only used in the tests step, if there are no tests then
+                no need to upload
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.42
+          title: ""
+          date: 2024-09-18T11:05:33.621Z
+  version: 6.0.29+rev1
+  title: ""
+  date: 2024-09-18T20:09:03.653Z
+- commits:
     - subject: Update layers/meta-balena to c702e9376d4424d8df32dff465a4e17ebdf009a9
       hash: 2871a5f030a96af0f6c17808dd00a238a9f35767
       body: Update layers/meta-balena

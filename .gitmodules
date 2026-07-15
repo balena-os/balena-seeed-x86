@@ -8,7 +8,8 @@
 	branch = master
 [submodule "layers/meta-intel"]
 	path = layers/meta-intel
-	url = git://git.yoctoproject.org/meta-intel
+	url = https://git.yoctoproject.org/git/meta-intel
+	branch = kirkstone
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded
